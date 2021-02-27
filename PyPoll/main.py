@@ -8,7 +8,6 @@ with open(election_data) as dandy:
     read = csv.reader(dandy, delimiter = ',')
     
     header= next(read)
-    print(header)
 
     tot_votes = 0
     unique_cand = []
